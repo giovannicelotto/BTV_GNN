@@ -48,6 +48,7 @@ CMSSW_14_1_0/src/analysis/oldfiles
 CMSSW_14_1_0/src/dispV/dispVAnalyzer/__pycache__
 CMSSW_14_1_0/src/dispV/dispVAnalyzer/crab_projects
 CMSSW_14_1_0/src/dispV/dispVAnalyzer/data/
+CMSSW_15_0_6/*/*/*
 ML_scripts/pics
 IVF/files
 IVF/model_files

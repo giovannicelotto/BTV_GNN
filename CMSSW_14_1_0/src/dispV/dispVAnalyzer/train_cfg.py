@@ -74,7 +74,7 @@ process.demo = cms.EDAnalyzer(
     vtxweight=cms.untracked.double(0.5),
     vertexfitter=cms.untracked.PSet(finder=cms.string("avr")),
     clusterizer=ClusteringParam,
-    model_path=cms.FileInPath("dispV/dispVAnalyzer/data/bhive_hcmod_1703.onnx"),
+    model_path=cms.FileInPath("dispV/dispVAnalyzer/data/submod_out128_hyper_1802.onnx"),
 )
 
 process.TFileService = cms.Service("TFileService", fileName=cms.string(options.outfile))
